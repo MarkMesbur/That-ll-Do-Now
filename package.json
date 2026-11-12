@@ -1,0 +1,13 @@
+{
+  "name": "focus-blocker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test test/*.test.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "^27.0.1",
+    "typescript": "^5.7.3"
+  }
+}
